@@ -48,4 +48,29 @@ APR 02(THU) : Meeting with Professor. Get advice about GPS Problem. -> For preve
 
 APR 04(SAT) : For Solve the power distrubution problem, add Power Bank for some machines(Monitor, LiDAR). -> Problem Not occurs anymore but Power Bank is not enough for 3hour operating.
 
-APR 27(SAT) : 
+*APR 05 to APR 26 : Midterm test period
+
+APR 27(SAT) : Adjust the parametrs of the LiDAR to distinguish nearby traffic cones from others. Measuring the RTK GPS values from the national reference point_ try1.
+
+ARP 29(MON) : Second try to measuring the RTK GPS at the national reference point. (National Reference point has fixed laltitude and longitude). Try with GPS Board attached to laptop, but failed with "LOW VOLTAGE WARNING"
+
+### MAY 2024
+
+MAY 04(SAT) : Third attempt to measuring the RTK GPS form national reference point. Try with GPS Board connected with Desktop. 15cm offset at NW(345degree). -> Always
+
+MAY 08(WED) : Check the output from the Lane Detection moudle and find out there are more specific attribution lower than label. / Find the error from GPS-IMU time sync module and fixed it.
+
+MAY 09(THU) : Drive with controller. Check the packet data format is matched to the manual.
+
+MAY 10(FRI) : Modify the LiDAR Clustering Module that can ignore the bounding box over than 3m*3m. Check the Driving Lane detected datas on Noon and night. (For presentation of research proposal)
+
+MAY 12(SUM) : For making datas, test the algorhitms at outside. Can't detect the traffic light at night. Can detect the traffic signs even if  it's covered with leaves.
+
+MAY 11(SAT) to MAY 15(WED) : Write the Research Proposal
+
+MAY 18(SAT) : Modify the clustering module for extracting the position and size to terminal.
+
+MAY 20(MON) to MAY 23(THU) : Prepare for presentation of Research Proposal
+
+MAY 24(FRI) : Presentation of Research Proposal
+
